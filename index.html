@@ -302,10 +302,11 @@
       <div class="paper-face paper-front" aria-hidden="true"><span class="logo-art"></span></div>
       <div class="paper-face paper-back">
         <span class="card-logo logo-art" aria-hidden="true"></span>
-        <p class="card-label">Từ khóa ô chữ</p>
+        <p class="card-label"> </p>
         <h2 class="keyword" id="keyword" tabindex="-1">ĐỒNG HÀNH</h2>
-        <p class="thanks">Sinh nhật hai tuổi của Boo vui hơn vì hôm nay có bạn!</p>
-        <p class="signature">Thương, Boo.</p>
+        <p class="thanks">BOO thật sự rất biết ơn vì có bạn đồng hành, để hành trình 2 năm của Boo thêm nhiều niềm vui và những điều đáng yêu! </p>
+        <p class="signature">Iu bạn rất nhiều</p>
+        <p class="signature">Boo.</p>
       </div>
     </article>
   </template>
@@ -361,7 +362,7 @@
           openControl.hidden = true;
           hint.hidden = true;
           reward.hidden = false;
-          intro.textContent = "Điền từ khóa bên dưới vào ô chữ trên phiếu nhé.";
+          intro.textContent = "Từ khoá ô chữ là....";
           const keyword = letter.querySelector(".keyword");
           if (fromKeyboard) keyword.focus({ preventScroll: true });
           else announcement.textContent = "Thiệp đã mở. Từ khóa là " + keyword.textContent + ". Xem cách nhận ưu đãi bên dưới.";
